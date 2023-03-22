@@ -131,7 +131,7 @@ class _CalculatorState extends State<Calculator> {
               ],
             ),
             const SizedBox(
-              height: 10,
+              height: 30,
             ),
           ],
         ),
