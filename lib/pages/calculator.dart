@@ -43,21 +43,7 @@ class _CalculatorState extends State<Calculator> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           children: <Widget>[
-            Row(
-              children: <Widget>[
-                Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: Text(
-                    '$alltext',
-                    textAlign: TextAlign.right,
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontSize: 50,
-                    ),
-                  ),
-                ),
-              ],
-            ),
+           
             SingleChildScrollView(
               scrollDirection: Axis.vertical,
               child: Row(
